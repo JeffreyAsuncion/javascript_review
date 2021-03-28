@@ -19,4 +19,6 @@
     grades.fill(-1, 0, grades.length)
     console.log(grades);
 
+    // copy part of an array to the array itself
+    // grades.copyWithin(); 
 }
