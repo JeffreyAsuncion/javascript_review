@@ -1,16 +1,16 @@
-{
-    //  bind
-    function doStuff(input, input2){
-        console.log(input, input2);
-        console.log(this);
+// {
+//     //  bind
+//     function doStuff(input, input2){
+//         console.log(input, input2);
+//         console.log(this);
         
-    }
+//     }
 
-    // .bind("hello") assigns this to a new function
-    let newFunction = doStuff.bind("hello", 5, 15);
+//     // .bind("hello") assigns this to a new function
+//     let newFunction = doStuff.bind("hello", 5, 15);
 
-    newFunction();
-}
+//     newFunction();
+// }
 
 {
     //  bind

@@ -6,5 +6,5 @@
     // same as above
     let func2 = (x) => x * x;
 
-    console.log(func2(3));
+    func2(x);
 }
