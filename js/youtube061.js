@@ -1,3 +1,15 @@
+// {
+//     //  call 
+//     function doStuff(input){
+//         console.log(input);
+//         console.log(this);
+        
+//     }
+
+//     // .call("hello") assigns this and runs doStuff(5)
+//     doStuff.call("hello", 5, 10);
+// }
+
 {
     //  apply 
     function doStuff(input, input2){
