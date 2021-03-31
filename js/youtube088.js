@@ -31,4 +31,24 @@
 
     console.log(student, teacher);
 
+
+    console.log(teacher instanceof Teacher);
+    console.log(teacher instanceof User);
+
+    if(teacher instanceof Student){
+        console.log("yes");
+    } else {
+        console.log("nope");
+    }
+    
+    function doSomething(user){
+        // if a valid User
+        if(user instanceof User){
+            return 5;
+        }
+        // invalid
+        return -1;
+    }
+
+    console.log(doSomething(teacher));
 }
