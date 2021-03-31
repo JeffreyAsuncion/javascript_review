@@ -31,4 +31,8 @@
 
     console.log(student, teacher);
 
+    console.log(teacher instanceof Teacher);
+    console.log(teacher instanceof User);
+
+    
 }
