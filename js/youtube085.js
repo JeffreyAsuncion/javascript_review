@@ -39,8 +39,7 @@
     for(let prop in teacher){
         if(teacher.hasOwnProperty(prop)){
             properties.push(prop);
-        }
-        
+        }  
     }
 
     console.log(properties);
